@@ -1,0 +1,120 @@
+:root{
+    --primary-color:#ebf3fa;
+    --secondary-color:#30404d;
+    --tertiary-color:#ddd;
+}
+
+.dark-mode {
+    --primary-color: black;
+    --secondary-color: white;
+    --tertiary-color: gray;
+}
+
+body {
+    margin: 0;
+    background-color: var(--primary-color);
+}
+
+.navbar {
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: var(--secondary-color);
+    text-align: center;
+    text-decoration: none;
+    margin-top: 70px;
+    margin-right: 75px;
+    font-size: 18px;
+    font-family: 'Nunito';
+    
+    
+  }
+
+  .navbar a:hover {
+    background-color: var(--tertiary-color);
+    color: black;
+  }
+
+.navbar-right{
+    float: right;
+}
+
+.navbar-left{
+    float: left;
+}
+
+.sectionhead {
+    color: var(--secondary-color);
+    font-family: 'Lexend';
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 120px;
+}
+
+h1 {
+    color: var(--secondary-color);
+    font-family: 'Lexend';
+    font-size: 40px;
+    font-weight: lighter;
+}
+h2{
+    color: var(--secondary-color);
+    font-family: 'Lexend';
+    font-size: 28px;
+
+}
+a{
+    color: var(--secondary-color);
+    font-family: 'Roboto';
+    font-size: 26px;
+}
+
+.aboutme{
+    font-family: 'Nunito';
+    color: var(--secondary-color);
+    font-size: 22px;
+    font-weight: lighter;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 75px;
+    margin-bottom: 350px;
+    line-height: 1.7;
+}
+
+.experience{
+    font-family: 'Nunito';
+    color: var(--secondary-color);
+    font-size: 22px;
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+    float: right;
+    z-index: 100;
+}
+
+
+.exp{
+    margin-left: 300px;
+    font-family: 'Nunito';
+    color: var(--secondary-color);
+    font-size: 24px;
+}
+
+.exp-description{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: 'Nunito';
+    color: var(--secondary-color);
+    font-size: 20px;
+}
